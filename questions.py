@@ -1,7 +1,7 @@
 #Question Class
 class question:
     #default Constructor, takes in a question
-    def __init__(self, q = "" ):
+    def __init__(self, q = "Default" ):
         #Variable for question
         self.prompt = q
         #variable for choices array
